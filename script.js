@@ -1,3 +1,4 @@
+// Moment.js
 var currentDate = moment().format('dddd') + " " + moment().format("Do MMM YYYY");
 var currentHour = moment().format('h:mm:ss a');
 // Text hour var
@@ -16,6 +17,9 @@ var sevenPm = $("#19pm");
 var hour = moment().hours();
 var userInput;
 var hourSpan;
+// var hourString = $(".hour").text().split(" ");
+
+// Date and Hour
 
 var interval = setInterval(function() {
   var momentNow = moment();
